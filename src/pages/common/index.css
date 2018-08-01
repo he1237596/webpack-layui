@@ -1,0 +1,18 @@
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #222;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{content:" ";display:table}
+.clearfix:after{height:0;line-height:0;visibility:hidden;clear:both}
+.clearfix:after,.clearfix:before{content:" ";display:table}
+.clearfix:after{height:0;line-height:0;visibility:hidden;clear:both}
+.w{
+	width: 1080px;
+}

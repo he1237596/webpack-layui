@@ -1,0 +1,6 @@
+body{
+	/*background: red;*/
+	background: #fff url(../image/01.png) 0 0 no-repeat;
+	font-size: 30px;
+	color:red;
+}

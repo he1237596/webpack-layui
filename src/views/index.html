@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<%=require("html-loader!./layout/head-common.html")%>
+			<title><%= htmlWebpackPlugin.options.title %></title>
+			<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+
+			<link rel="stylesheet" type="text/css" href="../lib/layui/css/layui.css"/>
+	</head>
+	<body>
+		<%=require("html-loader!./layout/header.html")%>
+		<%=require("html-loader!./layout/nav-slide.html")%>
+		<script src="../lib/jquery-1.11.min.js"></script>
+		<script src="../lib/layui/layui.all.js"></script>
+	</body>
+</html>
