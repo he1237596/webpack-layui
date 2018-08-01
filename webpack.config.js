@@ -97,10 +97,10 @@ const config = {
 
     new CopyWebpackPlugin([ //支持输入一个数组
         {
-            from: Path.resolve(__dirname, '/src/lib'), //将src/assets下的文件
+            from: Path.resolve(__dirname, './src/lib'), //将src/assets下的文件
             to: './lib' // 复制到publiv
         },{
-          from:Path.resolve(__dirname,__dirname + "/node_modules/reset-css/reset.css"),
+          from:Path.resolve(__dirname,__dirname + "/node_modules/reset-css/reset.css"),//此处路径与上面不同
             to: './css'
         }
     ]),
