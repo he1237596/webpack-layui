@@ -1,7 +1,7 @@
 {
-  "name": "test02",
+  "name": "webpack-layui",
   "version": "1.0.0",
-  "description": "练习webpack",
+  "description": "练习webpack,结合layui",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
