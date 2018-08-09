@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/he1237596/test02.git"
+    "url": "git+https://github.com/he1237596/webpack-layui.git"
   },
   "author": "chris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/he1237596/test02/issues"
+    "url": "https://github.com/he1237596/webpack-layui/issues"
   },
-  "homepage": "https://github.com/he1237596/test02#readme",
+  "homepage": "https://github.com/he1237596/webpack-layui#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",
